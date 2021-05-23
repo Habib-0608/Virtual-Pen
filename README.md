@@ -2,7 +2,7 @@
 An open CV project that allows you to write and draw on your computer screen with different colours virtually. 
 
 ## Problem Highlights
-The first problem was to detect the colour of the pen we are going to use for drawing purpose, for that I created a Python file for detecting the color with live web cam by creating a mask for a range of colors using the HSV(Hue-Saturation-Value)[https://en.wikipedia.org/wiki/HSL_and_HSV] Color space .
+The first problem was to detect the colour of the pen we are going to use for drawing purpose, for that I created a [Python file](https://github.com/Habib-0608/Virtual-Pen/blob/main/pickColor_live.py) for detecting the color with live web cam by creating a mask for a range of colors using the HSV or [Hue-Saturation-Value](https://en.wikipedia.org/wiki/HSL_and_HSV) Color space .
 Next task was to find the current position of the tip of the pen and tracking its movement for drawing the line with the same colour of that of the pen.
 
 ## Achievements:
@@ -14,7 +14,7 @@ Things I have learnt by completing this project:
 
 ## Software and Libraries
 
-* Open cv
+* Open CV
 * Python 2.7 NumPy
 * Matplotlib
 * Jupyter Notebook
